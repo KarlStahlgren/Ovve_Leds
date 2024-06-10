@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "65ec65e2-fe54-4c82-a2d0-35f0c7f25604")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GND_out_A"
+		(shape output)
+		(at 142.24 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07cfe068-92e6-42c1-b09a-fd1b0791f952")
+	)
+	(hierarchical_label "DATA_in_A"
+		(shape input)
+		(at 153.67 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12da03ec-9f9b-4372-bbd0-98ad142cf8d6")
+	)
+	(hierarchical_label "DATA_out_A"
+		(shape output)
+		(at 153.67 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "420a1a11-e425-4d5c-93f7-0c6570081a9e")
+	)
+	(hierarchical_label "Vcc_out_A"
+		(shape output)
+		(at 146.05 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79358add-15d3-4199-86da-d18f98a20cb5")
+	)
+	(hierarchical_label "CLK_in_A"
+		(shape input)
+		(at 149.86 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae67a08f-ce49-491e-99fa-0dcdfa7a1838")
+	)
+	(hierarchical_label "CLK_out_A"
+		(shape output)
+		(at 149.86 171.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b78fd9f7-c33d-4b85-9288-12a53037ebe7")
+	)
+	(hierarchical_label "GND_in_A"
+		(shape input)
+		(at 142.24 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbeced58-99b3-419b-bf95-5ca9f27c7f46")
+	)
+	(hierarchical_label "Vcc_in_A"
+		(shape input)
+		(at 146.05 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed880970-a55b-4a93-af8d-59474e358e07")
+	)
+)
