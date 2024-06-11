@@ -5,6 +5,145 @@
 	(uuid "a3f154e4-ded7-4c3a-b779-1e1dc74aad12")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -335,6 +474,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 45.72) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11c29ad-6bf1-4a6e-bb8b-d085b1b3770a")
+	)
+	(wire
+		(pts
 			(xy 77.47 76.2) (xy 78.74 76.2)
 		)
 		(stroke
@@ -382,6 +531,16 @@
 			(type default)
 		)
 		(uuid "d04b8771-eaac-4999-8b04-9a8a15f2da39")
+	)
+	(wire
+		(pts
+			(xy 62.23 45.72) (xy 62.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d546c453-3e6a-45a7-827d-a637c92f3f76")
 	)
 	(wire
 		(pts
@@ -442,6 +601,16 @@
 			(type default)
 		)
 		(uuid "fc9eff33-76a1-46b1-a46f-db05b9469fbb")
+	)
+	(text "Connect 6V (i.e. 4 1,5V AA batteries) here \n"
+		(exclude_from_sim no)
+		(at 61.468 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ceb5d82-d72a-46ae-97cd-a332abb35fdb")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
@@ -663,6 +832,76 @@
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 59.69 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab90f674-0f4a-4cf4-adf2-8a8bf07ec4ba")
+		(property "Reference" "J8"
+			(at 64.77 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 64.77 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18c9f249-05ab-4fe8-ae6a-f967c6b996d1")
+		)
+		(pin "2"
+			(uuid "7103dd58-bbe6-42b7-8322-059cdd4688fa")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1285,6 +1524,26 @@
 				(justify right)
 			)
 			(uuid "6c3d5f03-937c-48d1-8f36-c3dd382b8f8c")
+		)
+		(pin "GND_in" input
+			(at 59.69 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "303c9de2-b76c-48bb-80fe-3765659c6106")
+		)
+		(pin "6V_in" input
+			(at 62.23 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8b18fa3-407d-48d2-88f8-0d7cf5d0df61")
 		)
 		(instances
 			(project "Ovve_Leds"
