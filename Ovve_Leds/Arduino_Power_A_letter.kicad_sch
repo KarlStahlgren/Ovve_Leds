@@ -453,6 +453,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -1938,6 +2074,12 @@
 		(uuid "385f6a4a-6df1-4602-86b3-58b4282ae3a3")
 	)
 	(junction
+		(at 190.5 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38ead184-62b1-4a33-ab5a-0e7dbd1e14a6")
+	)
+	(junction
 		(at 43.18 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2223,6 +2365,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 57.15) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7411e6ea-fbdb-474f-b1b2-401dde84dad1")
+	)
+	(wire
+		(pts
 			(xy 242.57 74.93) (xy 242.57 77.47)
 		)
 		(stroke
@@ -2410,6 +2562,26 @@
 			(type default)
 		)
 		(uuid "d7836c55-7216-42ca-8e9e-54c72bfb697e")
+	)
+	(wire
+		(pts
+			(xy 190.5 54.61) (xy 190.5 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd086cef-009a-450f-a80e-36fcd5cfd72b")
+	)
+	(wire
+		(pts
+			(xy 190.5 57.15) (xy 190.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de71b346-b990-422e-add9-17d3719f0af1")
 	)
 	(wire
 		(pts
@@ -2801,7 +2973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.792 109.22 90)
 			(effects
 				(font
@@ -2871,7 +3043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 267.97 148.59 0)
 			(effects
 				(font
@@ -3006,7 +3178,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 255.27 60.96 0)
 			(effects
 				(font
@@ -3076,7 +3248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -3206,7 +3378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 253.492 53.34 90)
 			(effects
 				(font
@@ -3276,7 +3448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 253.492 109.22 90)
 			(effects
 				(font
@@ -3346,7 +3518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 102.87 26.67 0)
 			(effects
 				(font
@@ -3475,7 +3647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 266.192 140.97 90)
 			(effects
 				(font
@@ -3964,7 +4136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 102.87 38.1 0)
 			(effects
 				(font
@@ -4093,7 +4265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.792 25.4 90)
 			(effects
 				(font
@@ -4229,7 +4401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 102.87 31.75 0)
 			(effects
 				(font
@@ -4295,7 +4467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
 			(at 267.97 135.89 0)
 			(effects
 				(font
@@ -4333,7 +4505,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 62.23 0)
+		(at 190.5 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4341,7 +4513,7 @@
 		(dnp no)
 		(uuid "5777f631-c4ee-4b67-8fb5-04fbdb98d5a9")
 		(property "Reference" "#PWR050"
-			(at 190.5 66.04 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,7 +4522,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 190.5 58.42 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 62.23 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 62.23 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4548,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 190.5 62.23 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 66.04 124.46 0)
 			(effects
 				(font
@@ -4708,7 +4880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 242.57 148.59 0)
 			(effects
 				(font
@@ -4778,7 +4950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 267.97 33.02 0)
 			(effects
 				(font
@@ -4848,7 +5020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.792 140.97 90)
 			(effects
 				(font
@@ -4918,7 +5090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 242.57 88.9 0)
 			(effects
 				(font
@@ -4988,7 +5160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 266.192 25.4 90)
 			(effects
 				(font
@@ -5124,7 +5296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 102.87 49.53 0)
 			(effects
 				(font
@@ -5188,7 +5360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
 			(at 102.87 43.18 0)
 			(effects
 				(font
@@ -5225,6 +5397,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 204.47 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a12f060a-f157-49e1-af04-9c3e4df3083a")
+		(property "Reference" "#PWR067"
+			(at 210.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6fc3901-33fa-41b2-adbc-740a4dc9a06e")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab4c9226-44cb-4c1b-b0dd-60f1f58d0003")
+		(property "Reference" "C1"
+			(at 200.66 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 200.66 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 204.47 56.1848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a29326f-544e-49ff-a886-a87397daa80b")
+		)
+		(pin "2"
+			(uuid "2b3b72a4-188c-4c0b-8e4d-73b3714ac7c2")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 242.57 60.96 90)
 		(unit 1)
@@ -5252,7 +5559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 242.57 60.96 0)
 			(effects
 				(font
@@ -5322,7 +5629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 242.57 33.02 0)
 			(effects
 				(font
@@ -5458,7 +5765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.792 81.28 90)
 			(effects
 				(font
@@ -5660,7 +5967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 255.27 116.84 0)
 			(effects
 				(font
@@ -5861,7 +6168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 240.792 53.34 90)
 			(effects
 				(font
@@ -5931,7 +6238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 242.57 116.84 0)
 			(effects
 				(font
@@ -6001,7 +6308,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 190.5 80.01 0)
 			(effects
 				(font
