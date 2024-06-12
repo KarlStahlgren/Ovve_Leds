@@ -1467,7 +1467,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "7922422b-804d-4651-8572-e2719e6393b3")
-		(property "Sheetname" "Arduino_Power_A_letter"
+		(property "Sheetname" "Arduino_Power_K_letter"
 			(at 16.51 47.5484 0)
 			(effects
 				(font

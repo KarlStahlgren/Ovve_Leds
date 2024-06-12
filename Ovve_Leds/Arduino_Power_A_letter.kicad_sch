@@ -2146,10 +2146,6 @@
 		(uuid "7d723bcd-5cd3-417a-a1ea-8ce12a8706a4")
 	)
 	(no_connect
-		(at 170.18 82.55)
-		(uuid "7e1d6edf-359c-4b22-8fad-efdf840790fe")
-	)
-	(no_connect
 		(at 69.85 54.61)
 		(uuid "87ff685c-32cc-4b9f-8fc3-71cfb4cc31b2")
 	)
@@ -5596,6 +5592,71 @@
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
 					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2cdfc90-2856-4ed0-9152-da7d2b9e76ad")
+		(property "Reference" "#PWR072"
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5785fead-0275-4e07-a6f5-868af1c088f3")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
