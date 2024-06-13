@@ -3217,70 +3217,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 102.87 54.61 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "073ed61a-81b6-40df-aefb-ab7c94e4f2b3")
-		(property "Reference" "H6"
-			(at 105.41 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 105.41 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 242.57 36.83 0)
 		(unit 1)
@@ -4435,7 +4371,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 267.97 135.89 270)
+		(at 0 0 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4444,7 +4380,7 @@
 		(fields_autoplaced yes)
 		(uuid "54b66404-5665-405b-9310-cdaa791fb2ac")
 		(property "Reference" "J1"
-			(at 269.2401 137.16 0)
+			(at 1.2701 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4390,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 266.7001 137.16 0)
+			(at -1.2699 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4400,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 267.97 135.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 135.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4418,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 267.97 135.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,6 +4995,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 102.87 66.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7728a81c-0019-45e3-ae9f-c121dd3d9712")
+		(property "Reference" "H8"
+			(at 105.41 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 105.41 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 242.57 88.9 90)
 		(unit 1)
@@ -5266,16 +5266,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 102.87 49.53 0)
+		(at 102.87 60.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86fba317-fc8a-45a6-aec8-5386ca2b4f10")
-		(property "Reference" "H5"
-			(at 105.41 48.2599 0)
+		(uuid "84998ec1-6fce-48ce-b8fe-58fe97e53f56")
+		(property "Reference" "H7"
+			(at 105.41 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5284,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 105.41 50.7999 0)
+			(at 105.41 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5293,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 102.87 49.53 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 49.53 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5311,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 102.87 49.53 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,71 +5322,7 @@
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 102.87 43.18 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "932310f4-da4c-447f-83d4-5cb4ad357f4a")
-		(property "Reference" "H4"
-			(at 105.41 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 105.41 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 102.87 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/7922422b-804d-4651-8572-e2719e6393b3"
-					(reference "H4")
+					(reference "H7")
 					(unit 1)
 				)
 			)

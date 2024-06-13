@@ -2332,7 +2332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27510d51-0ef9-4b75-9953-745a9fb9d90a")
-		(property "Reference" "H12"
+		(property "Reference" "H14"
 			(at 205.74 49.5299 0)
 			(effects
 				(font
@@ -2380,7 +2380,7 @@
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H12")
+					(reference "H14")
 					(unit 1)
 				)
 			)
@@ -2996,70 +2996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 39.37 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42fcac89-f514-41a5-a555-bd6cc1fba26c")
-		(property "Reference" "H10"
-			(at 205.74 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 203.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 170.18 121.92 0)
 		(unit 1)
@@ -3139,7 +3075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490aad48-1145-413d-af31-74789ab0acd0")
-		(property "Reference" "H8"
+		(property "Reference" "H10"
 			(at 205.74 26.6699 0)
 			(effects
 				(font
@@ -3187,7 +3123,7 @@
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H8")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -3481,7 +3417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5afa99d5-2875-4cde-befa-f39ee01734d2")
-		(property "Reference" "H7"
+		(property "Reference" "H9"
 			(at 205.74 21.5899 0)
 			(effects
 				(font
@@ -3529,7 +3465,7 @@
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H7")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -3806,70 +3742,6 @@
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 34.29 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e96051b-6e20-4580-bd0a-924b8f8da755")
-		(property "Reference" "H9"
-			(at 205.74 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 203.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -4607,7 +4479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1479ae1-f9eb-4d13-9ec3-73a7645aa22a")
-		(property "Reference" "H11"
+		(property "Reference" "H13"
 			(at 205.74 44.4499 0)
 			(effects
 				(font
@@ -4655,7 +4527,7 @@
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H11")
+					(reference "H13")
 					(unit 1)
 				)
 			)
