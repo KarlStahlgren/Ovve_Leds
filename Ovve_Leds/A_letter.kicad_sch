@@ -1111,6 +1111,12 @@
 		)
 	)
 	(junction
+		(at 157.48 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46377dee-77f5-4a6b-9c17-4cb3ba83d66e")
+	)
+	(junction
 		(at 157.48 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1128,9 +1134,31 @@
 		(color 0 0 0 0)
 		(uuid "d3e37f4f-e33c-4ed7-9769-7d3db4fe252a")
 	)
+	(junction
+		(at 157.48 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db08efb7-4659-4fb5-a477-8dd3e9d73004")
+	)
+	(junction
+		(at 157.48 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e389fb81-25c7-4659-9af9-cb0f28101746")
+	)
 	(no_connect
 		(at 95.25 72.39)
 		(uuid "ecaec3d5-2706-4557-a752-92ebc71fcd49")
+	)
+	(wire
+		(pts
+			(xy 157.48 115.57) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01728988-4f75-4177-96f8-6f76a7d718d7")
 	)
 	(wire
 		(pts
@@ -1174,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 147.32) (xy 170.18 147.32)
+			(xy 144.78 147.32) (xy 157.48 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1211,6 +1239,26 @@
 			(type default)
 		)
 		(uuid "28b821d7-7382-47cf-b792-6afcd2cf0179")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 170.18 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a19871-b157-4715-8589-b937cee7c77d")
+	)
+	(wire
+		(pts
+			(xy 157.48 53.34) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e79e06-9983-4d42-bece-6e175aac63e3")
 	)
 	(wire
 		(pts
@@ -1264,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 53.34) (xy 170.18 53.34)
+			(xy 144.78 53.34) (xy 157.48 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1334,7 +1382,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 115.57) (xy 170.18 115.57)
+			(xy 157.48 53.34) (xy 157.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dcda34-4ca0-43fc-83df-752bbe60b800")
+	)
+	(wire
+		(pts
+			(xy 144.78 115.57) (xy 157.48 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1371,6 +1429,16 @@
 			(type default)
 		)
 		(uuid "84c3403d-c88b-4ace-92b9-913ac1b4c96c")
+	)
+	(wire
+		(pts
+			(xy 157.48 115.57) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc9b30d-4d19-4a8d-95aa-dafa3244a5cf")
 	)
 	(wire
 		(pts
@@ -1602,6 +1670,16 @@
 		)
 		(uuid "fb763220-c042-41e7-99b3-b8619a036c3f")
 	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 157.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7af41a-f966-4355-b594-221adc187428")
+	)
 	(label "LED3"
 		(at 95.25 64.77 0)
 		(fields_autoplaced yes)
@@ -1822,7 +1900,7 @@
 		)
 		(uuid "fcbdf8a6-8323-4d95-b6de-07f2d2f5ef2b")
 	)
-	(hierarchical_label "GND_out_A"
+	(hierarchical_label "GND_out"
 		(shape output)
 		(at 67.31 125.73 270)
 		(fields_autoplaced yes)
@@ -1834,7 +1912,7 @@
 		)
 		(uuid "07cfe068-92e6-42c1-b09a-fd1b0791f952")
 	)
-	(hierarchical_label "DATA_in_A"
+	(hierarchical_label "DATA_in"
 		(shape input)
 		(at 78.74 29.21 90)
 		(fields_autoplaced yes)
@@ -1846,7 +1924,7 @@
 		)
 		(uuid "12da03ec-9f9b-4372-bbd0-98ad142cf8d6")
 	)
-	(hierarchical_label "DATA_out_A"
+	(hierarchical_label "DATA_out"
 		(shape output)
 		(at 78.74 125.73 270)
 		(fields_autoplaced yes)
@@ -1858,7 +1936,7 @@
 		)
 		(uuid "420a1a11-e425-4d5c-93f7-0c6570081a9e")
 	)
-	(hierarchical_label "Vcc_out_A"
+	(hierarchical_label "Vcc_out"
 		(shape output)
 		(at 71.12 125.73 270)
 		(fields_autoplaced yes)
@@ -1870,7 +1948,7 @@
 		)
 		(uuid "79358add-15d3-4199-86da-d18f98a20cb5")
 	)
-	(hierarchical_label "CLK_in_A"
+	(hierarchical_label "CLK_in"
 		(shape input)
 		(at 74.93 29.21 90)
 		(fields_autoplaced yes)
@@ -1882,7 +1960,7 @@
 		)
 		(uuid "ae67a08f-ce49-491e-99fa-0dcdfa7a1838")
 	)
-	(hierarchical_label "CLK_out_A"
+	(hierarchical_label "CLK_out"
 		(shape output)
 		(at 74.93 125.73 270)
 		(fields_autoplaced yes)
@@ -1894,7 +1972,7 @@
 		)
 		(uuid "b78fd9f7-c33d-4b85-9288-12a53037ebe7")
 	)
-	(hierarchical_label "GND_in_A"
+	(hierarchical_label "GND_in"
 		(shape input)
 		(at 67.31 29.21 90)
 		(fields_autoplaced yes)
@@ -1906,7 +1984,7 @@
 		)
 		(uuid "dbeced58-99b3-419b-bf95-5ca9f27c7f46")
 	)
-	(hierarchical_label "Vcc_in_A"
+	(hierarchical_label "Vcc_in"
 		(shape input)
 		(at 71.12 29.21 90)
 		(fields_autoplaced yes)
@@ -1917,6 +1995,138 @@
 			(justify left)
 		)
 		(uuid "ed880970-a55b-4a93-af8d-59474e358e07")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00885157-eb7b-479c-b3ae-f4455e0210da")
+		(property "Reference" "#PWR08"
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "873b0420-8c48-481a-9f1c-7479d5cd6901")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0091d754-232a-4cd7-a4e2-c7752b6f8b23")
+		(property "Reference" "#PWR07"
+			(at 157.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63a397b7-1e4c-4967-815f-e1d465beca4d")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1979,6 +2189,76 @@
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "080b8c68-aedf-4233-84d1-59fb5b8b38e2")
+		(property "Reference" "R6"
+			(at 172.72 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 172.72 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.402 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c57148d-abcc-413b-abc5-e345a791d975")
+		)
+		(pin "2"
+			(uuid "e4ccb89a-5e96-4680-97a4-c897a8a5454e")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2051,167 +2331,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 133.35 0)
+		(lib_id "Device:LED")
+		(at 170.18 161.29 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1369d31b-30c4-4bc1-ae17-c8f1e7687a90")
-		(property "Reference" "#PWR019"
-			(at 144.78 139.7 0)
+		(uuid "133eb3a8-8145-4b56-bf3b-28b9a3a58ed5")
+		(property "Reference" "D13"
+			(at 166.37 161.6074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 144.78 138.43 0)
+		(property "Value" "LED"
+			(at 166.37 164.1474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ed586eb-6bbf-4c95-8ff2-85af328cc266")
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17d77f39-b188-444f-b09d-16b589c7add6")
-		(property "Reference" "#PWR014"
-			(at 144.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d85a7ac4-2b1e-4266-a09f-7ea002d04173")
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 170.18 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ddb60b9-37e8-4dfe-ab8f-b7312bd0338f")
-		(property "Reference" "R5"
-			(at 172.72 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 172.72 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.402 59.69 90)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 170.18 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 59.69 0)
+			(at 170.18 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,8 +2377,77 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 170.18 59.69 0)
+		(property "Description" "Light emitting diode"
+			(at 170.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6210457-4267-43d9-8d11-660e1350f086")
+		)
+		(pin "1"
+			(uuid "a262d060-c315-4233-847a-a95b29317e4c")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21ce75cd-5636-4146-9fd2-3e27c1270644")
+		(property "Reference" "#PWR016"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,15 +2456,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "076faf77-c4c2-4979-b60e-44840ec42235")
-		)
-		(pin "2"
-			(uuid "159446b7-2d19-47e1-b0ca-2284463b49d0")
+			(uuid "654215bd-6149-4f9e-b8e2-20699221c29f")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R5")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2323,70 +2538,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 50.8 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27510d51-0ef9-4b75-9953-745a9fb9d90a")
-		(property "Reference" "H14"
-			(at 205.74 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 203.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 144.78 36.83 90)
 		(unit 1)
@@ -2451,6 +2602,76 @@
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b5759bd-48f4-4032-bbee-1be96fa659e3")
+		(property "Reference" "D4"
+			(at 148.59 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 148.59 70.1674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca1444ee-f7c0-48cd-badd-67730098f08f")
+		)
+		(pin "1"
+			(uuid "c43f962f-7bec-47f2-ad3e-761372e14a53")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -2523,35 +2744,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 170.18 97.79 90)
+		(lib_id "Device:R")
+		(at 157.48 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d025809-a938-4b65-9569-3f0d3b5c8837")
-		(property "Reference" "D8"
-			(at 173.99 98.1074 90)
+		(uuid "2e9b0ad4-8e80-47ce-bade-e93f4c5d9fa1")
+		(property "Reference" "R5"
+			(at 160.02 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 173.99 100.6474 90)
+		(property "Value" "150"
+			(at 160.02 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 170.18 97.79 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 155.702 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 97.79 0)
+			(at 157.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,42 +2789,60 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 170.18 97.79 0)
+		(property "Description" "Resistor"
+			(at 157.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "7c4a4972-c79a-4bff-a103-22bf0aa40dc9")
 		)
 		(pin "1"
-			(uuid "dd92e5b4-d6f0-4a76-a619-f01407b33df1")
+			(uuid "53407e1e-d89c-4f80-82d0-b01cdee7315a")
+		)
+		(pin "2"
+			(uuid "6457d0bc-6b47-431c-aee1-c30eebe026e5")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 170.18 101.6 0)
+		(lib_id "Device:R")
+		(at 144.78 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "32ac62a2-1a5b-402e-8fdf-a091ae8f2b42")
-		(property "Reference" "#PWR018"
-			(at 170.18 107.95 0)
+		(uuid "2f9b82f2-4a9a-40d0-b13e-6363a05dd427")
+		(property "Reference" "R4"
+			(at 147.32 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 147.32 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.002 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,16 +2850,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 170.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 101.6 0)
+		(property "Datasheet" "~"
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,17 +2859,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 101.6 0)
+		(property "Description" "Resistor"
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,12 +2869,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1fd1be9-ad24-4f3c-acee-f996251a3a92")
+			(uuid "224e3a1a-f5d8-4fe8-99e7-c8ab0222599b")
+		)
+		(pin "2"
+			(uuid "d44a4c83-bbfc-429d-af8e-22f639ed3b57")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "#PWR018")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2795,16 +3020,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 165.1 0)
+		(at 144.78 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a0d545c-b648-4086-87ec-6afab8b339db")
-		(property "Reference" "#PWR021"
-			(at 144.78 171.45 0)
+		(uuid "3f5fd104-6ce1-432a-876c-296cc3c8f97c")
+		(property "Reference" "#PWR017"
+			(at 144.78 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +3038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 170.18 0)
+			(at 144.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +3046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 165.1 0)
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +3055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 165.1 0)
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +3064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 165.1 0)
+			(at 144.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,82 +3073,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c8951b1-fa8b-4f50-852f-5097e2425913")
+			(uuid "952350ad-15b3-4393-bbf0-7c47770f96ef")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41f9dcd1-c87e-4244-9296-adfd56f87f35")
-		(property "Reference" "R4"
-			(at 147.32 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 147.32 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.002 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0af6a6dd-f805-4d1b-99f2-2f9c026ba305")
-		)
-		(pin "2"
-			(uuid "c54fdc73-667d-44b2-a03a-634e543017a2")
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R4")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2996,151 +3151,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 170.18 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f96e0d-f670-47d3-b158-77922785a639")
-		(property "Reference" "R10"
-			(at 172.72 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 172.72 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.402 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dad95e9d-383a-4e2a-ad09-a9e4d349a0a3")
-		)
-		(pin "2"
-			(uuid "b75065b3-6104-4dcf-b73b-9f353d16b92e")
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 27.94 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "490aad48-1145-413d-af31-74789ab0acd0")
-		(property "Reference" "H10"
-			(at 205.74 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 203.2 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 144.78 161.29 90)
+		(at 157.48 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4cc21afc-0e3d-48a5-9780-29cc72010839")
-		(property "Reference" "D11"
-			(at 148.59 161.6074 90)
+		(uuid "4fc14498-08fb-48d0-82f3-d617c76b0521")
+		(property "Reference" "D8"
+			(at 161.29 98.1074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3170,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 148.59 164.1474 90)
+			(at 161.29 100.6474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3179,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 144.78 161.29 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 161.29 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3197,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 144.78 161.29 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,32 +3206,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "50540dde-6ffd-4904-a8d8-2f323eec64f6")
+			(uuid "d0c23f25-6b56-454c-b465-06462880f065")
 		)
 		(pin "1"
-			(uuid "1dd13664-0e59-4c3c-93a4-80ddd8834b12")
+			(uuid "0f2dd6ff-6599-41b8-9488-a29948063231")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D11")
+					(reference "D8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 144.78 153.67 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 30.48 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e7b943b-0830-4156-81ff-fb3517439ca0")
-		(property "Reference" "R11"
-			(at 147.32 152.3999 0)
+		(uuid "50e2bd06-17c7-4f62-9541-83c18fb62389")
+		(property "Reference" "H6"
+			(at 205.74 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,8 +3239,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
-			(at 147.32 154.9399 0)
+		(property "Value" "MountingHole"
+			(at 205.74 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,8 +3248,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.002 153.67 90)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 153.67 0)
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,25 +3266,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 144.78 153.67 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "08eb7dfc-f436-4fd6-99de-7b65ca55db08")
-		)
-		(pin "2"
-			(uuid "9d7fcf33-4e55-4137-aee4-c911b7e81c5d")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R11")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -3338,17 +3353,84 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 157.48 97.79 90)
+		(lib_id "power:GND")
+		(at 144.78 165.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a9e1b73-b2fe-4a4b-8158-669da7a9482f")
-		(property "Reference" "D7"
-			(at 161.29 98.1074 90)
+		(uuid "5c486285-e21e-4e65-b24b-b756481c1c5f")
+		(property "Reference" "#PWR022"
+			(at 144.78 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42677e0f-dad6-487a-9578-db7b4335baa4")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 157.48 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d484523-201d-4a8d-8b88-9a1062b90ca2")
+		(property "Reference" "D11"
+			(at 161.29 129.8574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3439,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 161.29 100.6474 90)
+			(at 161.29 132.3974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3448,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 157.48 97.79 0)
+			(at 157.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 97.79 0)
+			(at 157.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,7 +3466,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 157.48 97.79 0)
+			(at 157.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,79 +3475,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "96654ab8-a24f-4cec-b155-2a617437f7b5")
+			(uuid "16f35f0b-27fc-40c9-8ef4-be2b6ccff99f")
 		)
 		(pin "1"
-			(uuid "1b32d6c6-bdb0-4834-8fde-b841c69793f3")
+			(uuid "72dc0841-278a-42f5-b128-6c79f90dc5f6")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 22.86 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5afa99d5-2875-4cde-befa-f39ee01734d2")
-		(property "Reference" "H9"
-			(at 205.74 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 205.74 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 203.2 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H9")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3542,35 +3560,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 144.78 90.17 0)
+		(lib_id "power:GND")
+		(at 144.78 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77f7f3ce-f7f0-44ae-8313-e1b3ec22bf60")
-		(property "Reference" "R6"
-			(at 147.32 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 147.32 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.002 90.17 90)
+		(uuid "6632cd5d-6ea7-4f25-9bc3-80412adb617c")
+		(property "Reference" "#PWR06"
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,8 +3578,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 144.78 90.17 0)
+		(property "Value" "GND"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,8 +3595,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 144.78 90.17 0)
+		(property "Datasheet" ""
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,15 +3614,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "b048f4c1-d96e-4993-b207-b8e3e4a26857")
-		)
-		(pin "2"
-			(uuid "258faa0e-b169-4032-a636-5c6005287976")
+			(uuid "56d4b2a8-f59d-4c94-8545-3ae39b8f4a05")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R6")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701677e6-957c-4084-bc13-8540844acbfd")
+		(property "Reference" "#PWR018"
+			(at 157.48 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0de4db7e-829c-4288-b5da-ebf526174b16")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3678,35 +3758,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 144.78 97.79 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 25.4 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d0e60a9-94b7-4b3e-9301-2502e27c1294")
-		(property "Reference" "D6"
-			(at 148.59 98.1074 90)
+		(uuid "7ec324fe-996f-4ed7-97de-3a8f10477699")
+		(property "Reference" "H5"
+			(at 205.74 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 148.59 100.6474 90)
+		(property "Value" "MountingHole"
+			(at 205.74 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 144.78 97.79 0)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+			(at 203.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3795,142 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 97.79 0)
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8273583e-8505-4004-bf36-c48f2049125b")
+		(property "Reference" "R8"
+			(at 160.02 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 160.02 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 155.702 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d898a830-48f4-4fea-a73f-dcea4100877c")
+		)
+		(pin "2"
+			(uuid "a5924051-62d6-41d9-978b-c049ca9b5cad")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 157.48 161.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "858a13fa-411f-444e-8fac-b0937cca85e4")
+		(property "Reference" "D14"
+			(at 153.67 161.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 153.67 164.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3939,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 144.78 97.79 0)
+			(at 157.48 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,15 +3948,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b444eb8-06f4-4694-b4a3-21c11655b6ec")
+			(uuid "eb59d058-93a7-4be1-b8b3-b8fb4a1d228d")
 		)
 		(pin "1"
-			(uuid "e05f6711-33e5-4a0b-b87b-808a5c07d9e8")
+			(uuid "4f98ebc8-f382-40c6-99a3-b35462f74b0a")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D6")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -3749,16 +3964,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 101.6 0)
+		(at 170.18 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88f72d59-586d-4913-a5b5-dc2b5b22f231")
-		(property "Reference" "#PWR016"
-			(at 144.78 107.95 0)
+		(uuid "8b76a569-2b3a-44ae-9d22-0d87dc63e10c")
+		(property "Reference" "#PWR019"
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 106.68 0)
+			(at 170.18 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3990,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 101.6 0)
+			(at 170.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 101.6 0)
+			(at 170.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +4008,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 101.6 0)
+			(at 170.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,152 +4017,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f3fd76e-2658-488b-8233-7b89daea79d3")
+			(uuid "bdfdf876-a664-4942-a8cd-1248bc3b25b2")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 170.18 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a3bcdde-ce9a-4fd0-b0e6-8aafe2506be5")
-		(property "Reference" "D5"
-			(at 173.99 67.6274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 173.99 70.1674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 170.18 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ddae5ef9-a86d-4d02-8906-0297cfd9a34b")
-		)
-		(pin "1"
-			(uuid "62387068-54e9-4ac1-b481-2da6e48ef62f")
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 144.78 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90718061-73d4-4e08-ae50-3c0aa341df19")
-		(property "Reference" "D4"
-			(at 148.59 67.6274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 148.59 70.1674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 144.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 144.78 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8413da36-1449-4136-ab87-7d9904dda7da")
-		)
-		(pin "1"
-			(uuid "75e3da82-f544-47bd-99b7-ea8ee5503909")
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D4")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3955,16 +4030,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 71.12 0)
+		(at 157.48 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97da0afb-0da0-4899-8f70-e3d0ffa7e2ca")
+		(uuid "8fdc0afe-c44c-4570-9cca-e152bd7f9928")
 		(property "Reference" "#PWR015"
-			(at 170.18 77.47 0)
+			(at 157.48 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 76.2 0)
+			(at 157.48 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +4056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 71.12 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 71.12 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +4074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 71.12 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4083,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e21932b-183f-4528-aebf-8c03974c860f")
+			(uuid "f1b91d7b-81df-4a26-9a51-35e813c90bd1")
 		)
 		(instances
 			(project "Ovve_Leds"
@@ -4198,76 +4273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 170.18 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a30cd23e-0b07-46a3-9d3d-9f3eca456d15")
-		(property "Reference" "D10"
-			(at 173.99 129.8574 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 173.99 132.3974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 170.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 170.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c61f341f-cc80-4d21-b170-96114ba5f147")
-		)
-		(pin "1"
-			(uuid "3e5c7ec8-36ca-4584-9800-b7dcd7ae21ac")
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 46.99 90)
 		(unit 1)
@@ -4336,16 +4341,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 153.67 0)
+		(at 170.18 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5e9ad2e-c05a-41a1-ad69-f262f670e419")
+		(uuid "a48ee2a3-fdaf-4cfb-8a34-0cf09ebfdfab")
 		(property "Reference" "R12"
-			(at 172.72 152.3999 0)
+			(at 172.72 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4359,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 172.72 154.9399 0)
+			(at 172.72 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.402 153.67 90)
+			(at 168.402 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 153.67 0)
+			(at 170.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4386,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 170.18 153.67 0)
+			(at 170.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,10 +4395,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "56d90d15-6137-4bab-90e4-f7c837365cb8")
+			(uuid "ce052146-48b1-41f8-b2c7-02fe3eaf0a7f")
 		)
 		(pin "2"
-			(uuid "90fff247-c352-4535-b7db-05ae2cfa9ef9")
+			(uuid "91f866a7-e3a9-4e05-bdf2-16091b5c4baf")
 		)
 		(instances
 			(project "Ovve_Leds"
@@ -4470,17 +4475,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 45.72 0)
+		(lib_id "Device:R")
+		(at 144.78 121.92 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b1479ae1-f9eb-4d13-9ec3-73a7645aa22a")
-		(property "Reference" "H13"
-			(at 205.74 44.4499 0)
+		(uuid "ab5beeb5-e6cf-493d-88d1-926182ac9894")
+		(property "Reference" "R10"
+			(at 147.32 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,8 +4493,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 205.74 46.9899 0)
+		(property "Value" "150"
+			(at 147.32 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,8 +4502,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
-			(at 203.2 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.002 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4512,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 45.72 0)
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,71 +4520,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Ovve_Leds"
-				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "H13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4d77364-76dc-4635-aa50-baf2845ce669")
-		(property "Reference" "#PWR017"
-			(at 157.48 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 101.6 0)
+		(property "Description" "Resistor"
+			(at 144.78 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,12 +4530,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "931324cc-0f19-4ec8-9ad6-479bceb0d994")
+			(uuid "f85b9d62-5ca4-40d8-95fd-b4a2505cc7aa")
+		)
+		(pin "2"
+			(uuid "71a5066e-569e-4f20-9e55-78f5dfbec3a3")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "#PWR017")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4601,16 +4546,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 170.18 161.29 90)
+		(at 170.18 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4ed376f-9892-4e64-9208-d29e4599cac2")
-		(property "Reference" "D12"
-			(at 173.99 161.6074 90)
+		(uuid "b04278f6-3159-430b-892e-03212c3adf3d")
+		(property "Reference" "D6"
+			(at 173.99 67.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +4564,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 173.99 164.1474 90)
+			(at 173.99 70.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4573,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 170.18 161.29 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 161.29 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4591,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 170.18 161.29 0)
+			(at 170.18 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,15 +4600,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a2a363c-8669-4e83-babc-e1d953c939d1")
+			(uuid "5be2fa16-91fa-48e8-bed7-2c02b0b8f547")
 		)
 		(pin "1"
-			(uuid "5731040d-36bb-41e3-9903-68071118b477")
+			(uuid "a95e2ebf-b6a3-451c-8c9d-ba31ed44cc80")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D12")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b20572c1-9843-421f-b828-68223017eb61")
+		(property "Reference" "D7"
+			(at 148.59 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 148.59 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bdf68925-4598-420a-8cf2-0860bcf5e24a")
+		)
+		(pin "1"
+			(uuid "cfcf4aa3-dea7-47a8-b508-04a3633de390")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4729,6 +4744,211 @@
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 153.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc53aeea-8303-48d2-95c5-dc60391790de")
+		(property "Reference" "R15"
+			(at 142.24 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 142.24 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 146.558 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540d5c94-5cc3-480d-a837-77677e684856")
+		)
+		(pin "2"
+			(uuid "1a4bc30c-1770-4bc1-a4ab-7115c165a315")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb1d414-8470-4764-9b93-26e83a46be02")
+		(property "Reference" "H7"
+			(at 205.74 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 170.18 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcbf4f63-c741-4c57-a81d-f8311f83a914")
+		(property "Reference" "D12"
+			(at 173.99 129.8574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 170.18 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79738f25-9474-4ce6-8028-9aee1094b929")
+		)
+		(pin "1"
+			(uuid "605512bb-29b4-48f9-a4e0-e3fd6833c6f5")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4802,16 +5022,17 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 133.35 0)
+		(at 170.18 165.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2a1b0bd-2f95-42a1-9005-190ea48a9f72")
+		(uuid "cabae642-0b36-4ff3-a8e6-67518f8f66c9")
 		(property "Reference" "#PWR020"
-			(at 170.18 139.7 0)
+			(at 170.18 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +5041,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 138.43 0)
+			(at 170.18 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +5049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 133.35 0)
+			(at 170.18 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 133.35 0)
+			(at 170.18 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +5067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 133.35 0)
+			(at 170.18 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,12 +5076,290 @@
 			)
 		)
 		(pin "1"
-			(uuid "1746ebe0-ab65-4544-97dc-0644f28ec31c")
+			(uuid "c7881342-61f8-4cb8-996f-f91d18216b45")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb16f84e-0def-4880-8af5-66c5ad66e4e0")
+		(property "Reference" "R7"
+			(at 147.32 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 147.32 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 143.002 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87145928-5087-4cf4-ab31-2d8b40afcffd")
+		)
+		(pin "2"
+			(uuid "6cbd8de2-7902-4873-a6c9-b529c20f9461")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 170.18 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1569f59-aad6-49a4-a4dd-b6f512609ce0")
+		(property "Reference" "D9"
+			(at 173.99 98.1074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 173.99 100.6474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14ea0637-7e2b-4620-baae-d75bcf63342a")
+		)
+		(pin "1"
+			(uuid "97fde067-65af-4556-9f84-1c3fbf5f5867")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 161.29 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d35be12c-9a6c-4f29-9386-b013adfb7729")
+		(property "Reference" "D15"
+			(at 140.97 161.6074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 140.97 164.1474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 144.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a10724aa-2da0-405d-bab7-3666f588984d")
+		)
+		(pin "1"
+			(uuid "5e1d4cbe-3485-4011-b69c-63e3a70f619f")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5f55341-94ed-42a1-abaa-e2b08e941949")
+		(property "Reference" "#PWR021"
+			(at 157.48 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc474c2e-2225-4150-ac44-543ba9de0ddf")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4937,35 +5436,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 144.78 129.54 90)
+		(lib_id "Device:R")
+		(at 157.48 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "daad2151-9157-4a11-b101-ff1df28ad333")
-		(property "Reference" "D9"
-			(at 148.59 129.8574 90)
+		(uuid "d77ce90f-f7da-4de3-8d0b-8abfa67823f6")
+		(property "Reference" "R14"
+			(at 154.94 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 148.59 132.3974 90)
+		(property "Value" "150"
+			(at 154.94 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 144.78 129.54 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 159.258 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +5474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 129.54 0)
+			(at 157.48 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,25 +5482,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 144.78 129.54 0)
+		(property "Description" "Resistor"
+			(at 157.48 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0ec363fa-4c3f-4d42-a366-0614833b8fea")
 		)
 		(pin "1"
-			(uuid "46c1d1b0-3f6d-47f6-918b-2b3987da5054")
+			(uuid "99588354-bfee-486e-acbd-76e94f46d1ea")
+		)
+		(pin "2"
+			(uuid "4ec87658-0c94-46b6-8546-f23720372c2e")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "D9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5077,17 +5577,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 170.18 165.1 0)
+		(lib_id "Device:R")
+		(at 170.18 153.67 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7ebe097-6b78-4cf1-987c-cdd938235eb1")
-		(property "Reference" "#PWR022"
-			(at 170.18 171.45 0)
+		(uuid "e6221cbd-7aa5-44f6-9531-35be52c3942c")
+		(property "Reference" "R13"
+			(at 167.64 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 167.64 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 171.958 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,16 +5614,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 165.1 0)
+		(property "Datasheet" "~"
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,17 +5623,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 165.1 0)
+		(property "Description" "Resistor"
+			(at 170.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,12 +5633,155 @@
 			)
 		)
 		(pin "1"
-			(uuid "3843f6b2-0341-44a6-ae8a-60e7516d337b")
+			(uuid "dba388e2-22ac-4702-86bc-5fad87ce1038")
+		)
+		(pin "2"
+			(uuid "e2cf99e0-da44-4ca9-be49-bea2559b4726")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "#PWR022")
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb831f64-1624-43cd-834a-7d06c2407b9b")
+		(property "Reference" "R9"
+			(at 172.72 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 172.72 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.402 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7409f1c1-bd02-4e2b-a33a-09f071bc610b")
+		)
+		(pin "2"
+			(uuid "84bdfc4d-f5d2-4297-8ec4-13f6453419c6")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7c2e25-eaf2-4838-a389-0cf0479809ca")
+		(property "Reference" "D10"
+			(at 148.59 129.8574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 148.59 132.3974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 144.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97d6a7aa-5a23-4437-b5e2-f17ba7946c21")
+		)
+		(pin "1"
+			(uuid "29d3e3d2-6591-400b-8304-a71376f993cb")
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -5209,16 +5854,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 121.92 0)
+		(at 157.48 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f64c38eb-faf0-473b-8c16-6272e8e1063a")
-		(property "Reference" "R9"
-			(at 147.32 120.6499 0)
+		(uuid "f2836d91-18f0-4b26-b1ea-6a680b43c908")
+		(property "Reference" "R11"
+			(at 160.02 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5872,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 147.32 123.1899 0)
+			(at 160.02 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5881,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.002 121.92 90)
+			(at 155.702 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5890,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 121.92 0)
+			(at 157.48 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5899,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 121.92 0)
+			(at 157.48 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,50 +5908,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f0d9f64-c536-44e1-9af0-8dea6bf31053")
+			(uuid "4edf6c55-610a-42a8-9433-1dcb402ad505")
 		)
 		(pin "2"
-			(uuid "1a43599b-5e1e-4d8c-bed3-39cf4d8ffa89")
+			(uuid "4395f7c4-39d5-46df-8f7d-92177695894d")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 170.18 90.17 0)
+		(lib_id "Device:LED")
+		(at 157.48 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f65dcdde-81d5-42bb-b907-fb82fff75524")
-		(property "Reference" "R8"
-			(at 172.72 88.8999 0)
+		(uuid "f7c7f0e3-942a-42f0-84ad-efd0e961a03c")
+		(property "Reference" "D5"
+			(at 161.29 67.6274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "150"
-			(at 172.72 91.4399 0)
+		(property "Value" "LED"
+			(at 161.29 70.1674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.402 90.17 90)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 90.17 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,60 +5968,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 170.18 90.17 0)
+		(property "Description" "Light emitting diode"
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "b072bf2e-440d-4ba5-a882-978c3f5c47df")
 		)
 		(pin "2"
-			(uuid "7954acc2-a0e7-4653-88a2-b078422a2b00")
+			(uuid "06d0b3ed-804f-4eac-8e7d-cebebbdac230")
+		)
+		(pin "1"
+			(uuid "0193bc33-24f9-4039-9097-c125806ca516")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R8")
+					(reference "D5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 157.48 90.17 0)
+		(lib_id "power:GND")
+		(at 144.78 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f81a61f3-fe7e-431a-bd45-025c4dce9794")
-		(property "Reference" "R7"
-			(at 160.02 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150"
-			(at 160.02 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 155.702 90.17 90)
+		(uuid "f9208bda-e239-4b3b-adab-250ab6f839db")
+		(property "Reference" "#PWR014"
+			(at 144.78 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,8 +6011,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 157.48 90.17 0)
+		(property "Value" "GND"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,8 +6028,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 157.48 90.17 0)
+		(property "Datasheet" ""
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,15 +6047,76 @@
 			)
 		)
 		(pin "1"
-			(uuid "69d3cad2-dcd4-4dc8-817f-76b033a67c4a")
-		)
-		(pin "2"
-			(uuid "c90c9eca-05fa-4643-875e-18cca231d407")
+			(uuid "5ae85ce3-fe4c-4a87-9f60-f267d7e70d5c")
 		)
 		(instances
 			(project "Ovve_Leds"
 				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
-					(reference "R7")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 40.64 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff5e6ee8-da1d-490d-9ed4-1ee9db20a444")
+		(property "Reference" "H8"
+			(at 205.74 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Ovve_Leds"
+				(path "/a3f154e4-ded7-4c3a-b779-1e1dc74aad12/480d303f-d31c-4223-9bbd-f91de5818754"
+					(reference "H8")
 					(unit 1)
 				)
 			)
