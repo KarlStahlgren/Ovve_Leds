@@ -41,7 +41,7 @@
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 285 175)
+		(grid_origin 205 305)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -4244,7 +4244,7 @@
 		(descr "Mounting Hole 5.3mm, M5, DIN965")
 		(tags "mounting hole 5.3mm m5 din965")
 		(property "Reference" "H3"
-			(at 6 0 360)
+			(at 6 0 0)
 			(layer "F.SilkS")
 			(uuid "968754d0-420d-41de-9691-3326c8873296")
 			(effects
@@ -4255,7 +4255,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 5.6 360)
+			(at 0 5.6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e3fd79e-1cde-4516-9396-270c2eba776d")
@@ -4333,7 +4333,7 @@
 			(uuid "605537b0-52ef-4815-b188-4a3ce8fc2069")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f5f0880a-1cf4-4f87-84fc-1df43290f42a")
 			(effects
@@ -8041,7 +8041,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_v3.x"
-			(at 8.89 19.05 360)
+			(at 8.89 19.05 0)
 			(layer "F.Fab")
 			(uuid "92d2220d-1f84-4feb-b8d8-18de9eb3daec")
 			(effects
@@ -8418,7 +8418,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.35 19.05 360)
+			(at 6.35 19.05 0)
 			(layer "F.Fab")
 			(uuid "5ae144f0-10fb-4960-a7e4-4efdbc51aa98")
 			(effects
@@ -8892,7 +8892,7 @@
 		(descr "Mounting Hole 5.3mm, M5, DIN965")
 		(tags "mounting hole 5.3mm m5 din965")
 		(property "Reference" "H1"
-			(at 6 0 360)
+			(at 6 0 0)
 			(layer "F.SilkS")
 			(uuid "73e9afc8-8bfa-4a90-a1bc-bf1828fbc02a")
 			(effects
@@ -8903,7 +8903,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 5.6 360)
+			(at 0 5.6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02129a9f-c1ec-477f-8e58-782757151d64")
@@ -8981,7 +8981,7 @@
 			(uuid "9c6c56ef-4087-4cde-8e64-a7d4ffb471aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "59f3452b-794f-4142-ba74-c30aa22b0022")
 			(effects
@@ -10342,7 +10342,7 @@
 		(descr "Mounting Hole 5.3mm, M5, DIN965")
 		(tags "mounting hole 5.3mm m5 din965")
 		(property "Reference" "H4"
-			(at -6 0 360)
+			(at -6 0 0)
 			(layer "F.SilkS")
 			(uuid "14d2b63a-f4f4-4c8f-bbc3-16f346f94027")
 			(effects
@@ -10353,7 +10353,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 5.6 360)
+			(at 0 5.6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "833bd9fa-5b32-4476-82ea-eae25fb950d9")
@@ -10431,7 +10431,7 @@
 			(uuid "56fd4b0e-73f2-474f-a67e-2dccbe7e8dc3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "622072f2-1bc5-4661-b912-a164a0a12248")
 			(effects
@@ -10785,7 +10785,7 @@
 		(descr "Mounting Hole 5.3mm, M5, DIN965")
 		(tags "mounting hole 5.3mm m5 din965")
 		(property "Reference" "H2"
-			(at -6 -1 360)
+			(at -6 -1 0)
 			(layer "F.SilkS")
 			(uuid "93edbc9f-faf2-4a87-bb26-381df1ad0ebb")
 			(effects
@@ -10796,7 +10796,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 5.6 360)
+			(at 0 5.6 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b25e295-333c-4397-bc6d-83dee0161e84")
@@ -10874,7 +10874,7 @@
 			(uuid "11dfad0d-992d-474d-a41f-46eda13d3ae9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "32b37b82-4dad-416c-aaf6-93d78d4c1af7")
 			(effects
@@ -12812,7 +12812,7 @@
 		(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0.5 -2.92 360)
+			(at 0.5 -2.92 0)
 			(layer "F.SilkS")
 			(uuid "1b10187d-2210-432c-94b2-97c4af60981d")
 			(effects
@@ -13559,7 +13559,7 @@
 			(uuid "d893bd8b-9f2d-4669-8823-da1c500ca792")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.77 3.81 360)
+			(at 2.77 3.81 0)
 			(layer "F.Fab")
 			(uuid "7fa0ee90-6b93-44b4-844a-fb583b30e387")
 			(effects
@@ -13960,7 +13960,7 @@
 		(descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J8"
-			(at -0.125 -2.725 360)
+			(at -0.125 -2.725 0)
 			(layer "F.SilkS")
 			(uuid "65562a8d-9dfc-4121-beb9-1af665f60a6e")
 			(effects
@@ -13971,7 +13971,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 4.385 4.81 360)
+			(at 4.385 4.81 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b197d1d0-1d30-4a4b-b355-3cc25c4ed9a1")
@@ -14729,7 +14729,7 @@
 		(uuid "ff005ce7-f247-449b-b6ac-37f231e1380b")
 		(at 117.04 161.26)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e47e98de-f435-4732-aa2d-6bd5fd2e6dbc")
@@ -14741,7 +14741,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "76758efc-3339-45b7-bb49-d1c1c969a203")
@@ -14753,7 +14753,7 @@
 			)
 		)
 		(property "Footprint" "Custom Footprints:pig_10x10"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "168efc8c-1235-4c76-8fd8-892bbb3f9635")
@@ -14765,7 +14765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f95b135-1059-48d0-b6a9-5e55504250e5")
@@ -14777,7 +14777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9b8bf2e-7ce8-4ef5-b2f5-b4f1688f1b03")
